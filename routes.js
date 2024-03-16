@@ -9,6 +9,6 @@ router.post("/authenticate", authenticate);
 router.post("/authorize", authorize);
 
 // Get GST info route
-router.post("/gst", getGstInfo);
+router.get("/gst", getGstInfo);
 
 module.exports = router;
